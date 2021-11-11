@@ -1,0 +1,2508 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0605.1023                               -->
+<workbook original-version='18.1' source-build='2021.2.0 (20212.21.0605.1023)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Maternal deaths Unicef regions (maternal mortality)' inline='true' name='federated.1pr34fb0xdgtad14z8fk316rfcqm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='maternal mortality' name='excel-direct.03em0ba1gwb10b1co9y6u0smxwpq'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/yuriawano/Downloads/maternal mortality.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='date' date-parse-format='yyyy' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+            <value name='[2014]' />
+            <value name='[2015]' />
+            <value name='[2016]' />
+            <value name='[2017]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Maternal deaths Unicef regions].[2000]' />
+              <field name='[Maternal deaths Unicef regions].[2001]' />
+              <field name='[Maternal deaths Unicef regions].[2002]' />
+              <field name='[Maternal deaths Unicef regions].[2003]' />
+              <field name='[Maternal deaths Unicef regions].[2004]' />
+              <field name='[Maternal deaths Unicef regions].[2005]' />
+              <field name='[Maternal deaths Unicef regions].[2006]' />
+              <field name='[Maternal deaths Unicef regions].[2007]' />
+              <field name='[Maternal deaths Unicef regions].[2008]' />
+              <field name='[Maternal deaths Unicef regions].[2009]' />
+              <field name='[Maternal deaths Unicef regions].[2010]' />
+              <field name='[Maternal deaths Unicef regions].[2011]' />
+              <field name='[Maternal deaths Unicef regions].[2012]' />
+              <field name='[Maternal deaths Unicef regions].[2013]' />
+              <field name='[Maternal deaths Unicef regions].[2014]' />
+              <field name='[Maternal deaths Unicef regions].[2015]' />
+              <field name='[Maternal deaths Unicef regions].[2016]' />
+              <field name='[Maternal deaths Unicef regions].[2017]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.03em0ba1gwb10b1co9y6u0smxwpq' name='Maternal deaths Unicef regions' table='[&apos;Maternal deaths Unicef regions$&apos;]' type='table'>
+            <columns gridOrigin='A1:S14:no:A1:S14:1' lost='0' outcome='1' processed='234'>
+              <column datatype='string' name='UNICEF Region' ordinal='0' />
+              <column datatype='integer' name='2000' ordinal='1' />
+              <column datatype='integer' name='2001' ordinal='2' />
+              <column datatype='integer' name='2002' ordinal='3' />
+              <column datatype='integer' name='2003' ordinal='4' />
+              <column datatype='integer' name='2004' ordinal='5' />
+              <column datatype='integer' name='2005' ordinal='6' />
+              <column datatype='integer' name='2006' ordinal='7' />
+              <column datatype='integer' name='2007' ordinal='8' />
+              <column datatype='integer' name='2008' ordinal='9' />
+              <column datatype='integer' name='2009' ordinal='10' />
+              <column datatype='integer' name='2010' ordinal='11' />
+              <column datatype='integer' name='2011' ordinal='12' />
+              <column datatype='integer' name='2012' ordinal='13' />
+              <column datatype='integer' name='2013' ordinal='14' />
+              <column datatype='integer' name='2014' ordinal='15' />
+              <column datatype='integer' name='2015' ordinal='16' />
+              <column datatype='integer' name='2016' ordinal='17' />
+              <column datatype='integer' name='2017' ordinal='18' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='date' date-parse-format='yyyy' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+            <value name='[2014]' />
+            <value name='[2015]' />
+            <value name='[2016]' />
+            <value name='[2017]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Maternal deaths Unicef regions].[2000]' />
+              <field name='[Maternal deaths Unicef regions].[2001]' />
+              <field name='[Maternal deaths Unicef regions].[2002]' />
+              <field name='[Maternal deaths Unicef regions].[2003]' />
+              <field name='[Maternal deaths Unicef regions].[2004]' />
+              <field name='[Maternal deaths Unicef regions].[2005]' />
+              <field name='[Maternal deaths Unicef regions].[2006]' />
+              <field name='[Maternal deaths Unicef regions].[2007]' />
+              <field name='[Maternal deaths Unicef regions].[2008]' />
+              <field name='[Maternal deaths Unicef regions].[2009]' />
+              <field name='[Maternal deaths Unicef regions].[2010]' />
+              <field name='[Maternal deaths Unicef regions].[2011]' />
+              <field name='[Maternal deaths Unicef regions].[2012]' />
+              <field name='[Maternal deaths Unicef regions].[2013]' />
+              <field name='[Maternal deaths Unicef regions].[2014]' />
+              <field name='[Maternal deaths Unicef regions].[2015]' />
+              <field name='[Maternal deaths Unicef regions].[2016]' />
+              <field name='[Maternal deaths Unicef regions].[2017]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.03em0ba1gwb10b1co9y6u0smxwpq' name='Maternal deaths Unicef regions' table='[&apos;Maternal deaths Unicef regions$&apos;]' type='table'>
+            <columns gridOrigin='A1:S14:no:A1:S14:1' lost='0' outcome='1' processed='234'>
+              <column datatype='string' name='UNICEF Region' ordinal='0' />
+              <column datatype='integer' name='2000' ordinal='1' />
+              <column datatype='integer' name='2001' ordinal='2' />
+              <column datatype='integer' name='2002' ordinal='3' />
+              <column datatype='integer' name='2003' ordinal='4' />
+              <column datatype='integer' name='2004' ordinal='5' />
+              <column datatype='integer' name='2005' ordinal='6' />
+              <column datatype='integer' name='2006' ordinal='7' />
+              <column datatype='integer' name='2007' ordinal='8' />
+              <column datatype='integer' name='2008' ordinal='9' />
+              <column datatype='integer' name='2009' ordinal='10' />
+              <column datatype='integer' name='2010' ordinal='11' />
+              <column datatype='integer' name='2011' ordinal='12' />
+              <column datatype='integer' name='2012' ordinal='13' />
+              <column datatype='integer' name='2013' ordinal='14' />
+              <column datatype='integer' name='2014' ordinal='15' />
+              <column datatype='integer' name='2015' ordinal='16' />
+              <column datatype='integer' name='2016' ordinal='17' />
+              <column datatype='integer' name='2017' ordinal='18' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Maternal deaths Unicef regions]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S14:no:A1:S14:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>234</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNICEF Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[UNICEF Region]</local-name>
+            <parent-name>[Maternal deaths Unicef regions]</parent-name>
+            <remote-alias>UNICEF Region</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Maternal deaths Unicef regions_9B3DECB5F9D04BDF8F3932876F415464]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Maternal deaths Unicef regions_9B3DECB5F9D04BDF8F3932876F415464]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Maternal deaths Unicef regions_9B3DECB5F9D04BDF8F3932876F415464]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Time period' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+      <column caption='Death number' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <column datatype='string' name='[UNICEF Region]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Maternal deaths Unicef regions' datatype='table' name='[__tableau_internal_object_id__].[Maternal deaths Unicef regions_9B3DECB5F9D04BDF8F3932876F415464]' role='measure' type='quantitative' />
+      <column-instance column='[UNICEF Region]' derivation='None' name='[none:UNICEF Region:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:UNICEF Region:nk]' palette='cyclic_10_0' type='palette'>
+            <map to='#1ba3c6'>
+              <bucket>&quot;Sub-Saharan Africa&quot;</bucket>
+            </map>
+            <map to='#25ab74'>
+              <bucket>&quot;Least developed countries&quot;</bucket>
+            </map>
+            <map to='#34bfb7'>
+              <bucket>&quot;West and Central Africa&quot;</bucket>
+            </map>
+            <map to='#4f7cba'>
+              <bucket>&quot;Western Europe&quot;</bucket>
+            </map>
+            <map to='#65a734'>
+              <bucket>&quot;Eastern and Southern Africa&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;World&quot;</bucket>
+            </map>
+            <map to='#966ec3'>
+              <bucket>&quot;North America&quot;</bucket>
+            </map>
+            <map to='#d1bb21'>
+              <bucket>&quot;South Asia&quot;</bucket>
+            </map>
+            <map to='#dd6cba'>
+              <bucket>&quot;Eastern Europe and Central Asia&quot;</bucket>
+            </map>
+            <map to='#ea541e'>
+              <bucket>&quot;Latin America and Caribbean&quot;</bucket>
+            </map>
+            <map to='#ec374d'>
+              <bucket>&quot;Middle East and North Africa&quot;</bucket>
+            </map>
+            <map to='#f89f1a'>
+              <bucket>&quot;East Asia and Pacific&quot;</bucket>
+            </map>
+            <map to='#fb6a96'>
+              <bucket>&quot;Europe and Central Asia&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Maternal deaths Unicef regions' id='Maternal deaths Unicef regions_9B3DECB5F9D04BDF8F3932876F415464'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='date' date-parse-format='yyyy' name='Pivot Field Names' />
+                  <column datatype='integer' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[2000]' />
+                  <value name='[2001]' />
+                  <value name='[2002]' />
+                  <value name='[2003]' />
+                  <value name='[2004]' />
+                  <value name='[2005]' />
+                  <value name='[2006]' />
+                  <value name='[2007]' />
+                  <value name='[2008]' />
+                  <value name='[2009]' />
+                  <value name='[2010]' />
+                  <value name='[2011]' />
+                  <value name='[2012]' />
+                  <value name='[2013]' />
+                  <value name='[2014]' />
+                  <value name='[2015]' />
+                  <value name='[2016]' />
+                  <value name='[2017]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[Maternal deaths Unicef regions].[2000]' />
+                    <field name='[Maternal deaths Unicef regions].[2001]' />
+                    <field name='[Maternal deaths Unicef regions].[2002]' />
+                    <field name='[Maternal deaths Unicef regions].[2003]' />
+                    <field name='[Maternal deaths Unicef regions].[2004]' />
+                    <field name='[Maternal deaths Unicef regions].[2005]' />
+                    <field name='[Maternal deaths Unicef regions].[2006]' />
+                    <field name='[Maternal deaths Unicef regions].[2007]' />
+                    <field name='[Maternal deaths Unicef regions].[2008]' />
+                    <field name='[Maternal deaths Unicef regions].[2009]' />
+                    <field name='[Maternal deaths Unicef regions].[2010]' />
+                    <field name='[Maternal deaths Unicef regions].[2011]' />
+                    <field name='[Maternal deaths Unicef regions].[2012]' />
+                    <field name='[Maternal deaths Unicef regions].[2013]' />
+                    <field name='[Maternal deaths Unicef regions].[2014]' />
+                    <field name='[Maternal deaths Unicef regions].[2015]' />
+                    <field name='[Maternal deaths Unicef regions].[2016]' />
+                    <field name='[Maternal deaths Unicef regions].[2017]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.03em0ba1gwb10b1co9y6u0smxwpq' name='Maternal deaths Unicef regions' table='[&apos;Maternal deaths Unicef regions$&apos;]' type='table'>
+                  <columns gridOrigin='A1:S14:no:A1:S14:1' lost='0' outcome='1' processed='234'>
+                    <column datatype='string' name='UNICEF Region' ordinal='0' />
+                    <column datatype='integer' name='2000' ordinal='1' />
+                    <column datatype='integer' name='2001' ordinal='2' />
+                    <column datatype='integer' name='2002' ordinal='3' />
+                    <column datatype='integer' name='2003' ordinal='4' />
+                    <column datatype='integer' name='2004' ordinal='5' />
+                    <column datatype='integer' name='2005' ordinal='6' />
+                    <column datatype='integer' name='2006' ordinal='7' />
+                    <column datatype='integer' name='2007' ordinal='8' />
+                    <column datatype='integer' name='2008' ordinal='9' />
+                    <column datatype='integer' name='2009' ordinal='10' />
+                    <column datatype='integer' name='2010' ordinal='11' />
+                    <column datatype='integer' name='2011' ordinal='12' />
+                    <column datatype='integer' name='2012' ordinal='13' />
+                    <column datatype='integer' name='2013' ordinal='14' />
+                    <column datatype='integer' name='2014' ordinal='15' />
+                    <column datatype='integer' name='2015' ordinal='16' />
+                    <column datatype='integer' name='2016' ordinal='17' />
+                    <column datatype='integer' name='2017' ordinal='18' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Maternal deaths Unicef regions (maternal mortality) (2)' inline='true' name='federated.1ua6uq8110sw9012wkh7a0nm68mv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='maternal mortality' name='excel-direct.1gexegq041bcon171oiwt0zgyuis'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/yuriawano/Downloads/maternal mortality.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='date' date-parse-format='yyyy' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+            <value name='[2014]' />
+            <value name='[2015]' />
+            <value name='[2016]' />
+            <value name='[2017]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Maternal deaths Unicef regions].[2000]' />
+              <field name='[Maternal deaths Unicef regions].[2001]' />
+              <field name='[Maternal deaths Unicef regions].[2002]' />
+              <field name='[Maternal deaths Unicef regions].[2003]' />
+              <field name='[Maternal deaths Unicef regions].[2004]' />
+              <field name='[Maternal deaths Unicef regions].[2005]' />
+              <field name='[Maternal deaths Unicef regions].[2006]' />
+              <field name='[Maternal deaths Unicef regions].[2007]' />
+              <field name='[Maternal deaths Unicef regions].[2008]' />
+              <field name='[Maternal deaths Unicef regions].[2009]' />
+              <field name='[Maternal deaths Unicef regions].[2010]' />
+              <field name='[Maternal deaths Unicef regions].[2011]' />
+              <field name='[Maternal deaths Unicef regions].[2012]' />
+              <field name='[Maternal deaths Unicef regions].[2013]' />
+              <field name='[Maternal deaths Unicef regions].[2014]' />
+              <field name='[Maternal deaths Unicef regions].[2015]' />
+              <field name='[Maternal deaths Unicef regions].[2016]' />
+              <field name='[Maternal deaths Unicef regions].[2017]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.1gexegq041bcon171oiwt0zgyuis' name='Maternal deaths Unicef regions' table='[&apos;Maternal deaths Unicef regions$&apos;]' type='table'>
+            <columns gridOrigin='A1:S14:no:A1:S14:1' lost='0' outcome='1' processed='234'>
+              <column datatype='string' name='UNICEF Region' ordinal='0' />
+              <column datatype='integer' name='2000' ordinal='1' />
+              <column datatype='integer' name='2001' ordinal='2' />
+              <column datatype='integer' name='2002' ordinal='3' />
+              <column datatype='integer' name='2003' ordinal='4' />
+              <column datatype='integer' name='2004' ordinal='5' />
+              <column datatype='integer' name='2005' ordinal='6' />
+              <column datatype='integer' name='2006' ordinal='7' />
+              <column datatype='integer' name='2007' ordinal='8' />
+              <column datatype='integer' name='2008' ordinal='9' />
+              <column datatype='integer' name='2009' ordinal='10' />
+              <column datatype='integer' name='2010' ordinal='11' />
+              <column datatype='integer' name='2011' ordinal='12' />
+              <column datatype='integer' name='2012' ordinal='13' />
+              <column datatype='integer' name='2013' ordinal='14' />
+              <column datatype='integer' name='2014' ordinal='15' />
+              <column datatype='integer' name='2015' ordinal='16' />
+              <column datatype='integer' name='2016' ordinal='17' />
+              <column datatype='integer' name='2017' ordinal='18' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='date' date-parse-format='yyyy' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+            <value name='[2014]' />
+            <value name='[2015]' />
+            <value name='[2016]' />
+            <value name='[2017]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Maternal deaths Unicef regions].[2000]' />
+              <field name='[Maternal deaths Unicef regions].[2001]' />
+              <field name='[Maternal deaths Unicef regions].[2002]' />
+              <field name='[Maternal deaths Unicef regions].[2003]' />
+              <field name='[Maternal deaths Unicef regions].[2004]' />
+              <field name='[Maternal deaths Unicef regions].[2005]' />
+              <field name='[Maternal deaths Unicef regions].[2006]' />
+              <field name='[Maternal deaths Unicef regions].[2007]' />
+              <field name='[Maternal deaths Unicef regions].[2008]' />
+              <field name='[Maternal deaths Unicef regions].[2009]' />
+              <field name='[Maternal deaths Unicef regions].[2010]' />
+              <field name='[Maternal deaths Unicef regions].[2011]' />
+              <field name='[Maternal deaths Unicef regions].[2012]' />
+              <field name='[Maternal deaths Unicef regions].[2013]' />
+              <field name='[Maternal deaths Unicef regions].[2014]' />
+              <field name='[Maternal deaths Unicef regions].[2015]' />
+              <field name='[Maternal deaths Unicef regions].[2016]' />
+              <field name='[Maternal deaths Unicef regions].[2017]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.1gexegq041bcon171oiwt0zgyuis' name='Maternal deaths Unicef regions' table='[&apos;Maternal deaths Unicef regions$&apos;]' type='table'>
+            <columns gridOrigin='A1:S14:no:A1:S14:1' lost='0' outcome='1' processed='234'>
+              <column datatype='string' name='UNICEF Region' ordinal='0' />
+              <column datatype='integer' name='2000' ordinal='1' />
+              <column datatype='integer' name='2001' ordinal='2' />
+              <column datatype='integer' name='2002' ordinal='3' />
+              <column datatype='integer' name='2003' ordinal='4' />
+              <column datatype='integer' name='2004' ordinal='5' />
+              <column datatype='integer' name='2005' ordinal='6' />
+              <column datatype='integer' name='2006' ordinal='7' />
+              <column datatype='integer' name='2007' ordinal='8' />
+              <column datatype='integer' name='2008' ordinal='9' />
+              <column datatype='integer' name='2009' ordinal='10' />
+              <column datatype='integer' name='2010' ordinal='11' />
+              <column datatype='integer' name='2011' ordinal='12' />
+              <column datatype='integer' name='2012' ordinal='13' />
+              <column datatype='integer' name='2013' ordinal='14' />
+              <column datatype='integer' name='2014' ordinal='15' />
+              <column datatype='integer' name='2015' ordinal='16' />
+              <column datatype='integer' name='2016' ordinal='17' />
+              <column datatype='integer' name='2017' ordinal='18' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Maternal deaths Unicef regions]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S14:no:A1:S14:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>234</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNICEF Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[UNICEF Region]</local-name>
+            <parent-name>[Maternal deaths Unicef regions]</parent-name>
+            <remote-alias>UNICEF Region</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Time period' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+      <column caption='Death number' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Maternal deaths Unicef regions' datatype='table' name='[__tableau_internal_object_id__].[Maternal deaths Unicef regions_1DA174A0D07B455787AB06BDC1FDEFB7]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Maternal deaths Unicef regions' id='Maternal deaths Unicef regions_1DA174A0D07B455787AB06BDC1FDEFB7'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='date' date-parse-format='yyyy' name='Pivot Field Names' />
+                  <column datatype='integer' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[2000]' />
+                  <value name='[2001]' />
+                  <value name='[2002]' />
+                  <value name='[2003]' />
+                  <value name='[2004]' />
+                  <value name='[2005]' />
+                  <value name='[2006]' />
+                  <value name='[2007]' />
+                  <value name='[2008]' />
+                  <value name='[2009]' />
+                  <value name='[2010]' />
+                  <value name='[2011]' />
+                  <value name='[2012]' />
+                  <value name='[2013]' />
+                  <value name='[2014]' />
+                  <value name='[2015]' />
+                  <value name='[2016]' />
+                  <value name='[2017]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[Maternal deaths Unicef regions].[2000]' />
+                    <field name='[Maternal deaths Unicef regions].[2001]' />
+                    <field name='[Maternal deaths Unicef regions].[2002]' />
+                    <field name='[Maternal deaths Unicef regions].[2003]' />
+                    <field name='[Maternal deaths Unicef regions].[2004]' />
+                    <field name='[Maternal deaths Unicef regions].[2005]' />
+                    <field name='[Maternal deaths Unicef regions].[2006]' />
+                    <field name='[Maternal deaths Unicef regions].[2007]' />
+                    <field name='[Maternal deaths Unicef regions].[2008]' />
+                    <field name='[Maternal deaths Unicef regions].[2009]' />
+                    <field name='[Maternal deaths Unicef regions].[2010]' />
+                    <field name='[Maternal deaths Unicef regions].[2011]' />
+                    <field name='[Maternal deaths Unicef regions].[2012]' />
+                    <field name='[Maternal deaths Unicef regions].[2013]' />
+                    <field name='[Maternal deaths Unicef regions].[2014]' />
+                    <field name='[Maternal deaths Unicef regions].[2015]' />
+                    <field name='[Maternal deaths Unicef regions].[2016]' />
+                    <field name='[Maternal deaths Unicef regions].[2017]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.1gexegq041bcon171oiwt0zgyuis' name='Maternal deaths Unicef regions' table='[&apos;Maternal deaths Unicef regions$&apos;]' type='table'>
+                  <columns gridOrigin='A1:S14:no:A1:S14:1' lost='0' outcome='1' processed='234'>
+                    <column datatype='string' name='UNICEF Region' ordinal='0' />
+                    <column datatype='integer' name='2000' ordinal='1' />
+                    <column datatype='integer' name='2001' ordinal='2' />
+                    <column datatype='integer' name='2002' ordinal='3' />
+                    <column datatype='integer' name='2003' ordinal='4' />
+                    <column datatype='integer' name='2004' ordinal='5' />
+                    <column datatype='integer' name='2005' ordinal='6' />
+                    <column datatype='integer' name='2006' ordinal='7' />
+                    <column datatype='integer' name='2007' ordinal='8' />
+                    <column datatype='integer' name='2008' ordinal='9' />
+                    <column datatype='integer' name='2009' ordinal='10' />
+                    <column datatype='integer' name='2010' ordinal='11' />
+                    <column datatype='integer' name='2011' ordinal='12' />
+                    <column datatype='integer' name='2012' ordinal='13' />
+                    <column datatype='integer' name='2013' ordinal='14' />
+                    <column datatype='integer' name='2014' ordinal='15' />
+                    <column datatype='integer' name='2015' ordinal='16' />
+                    <column datatype='integer' name='2016' ordinal='17' />
+                    <column datatype='integer' name='2017' ordinal='18' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Maternal death (Region ranking)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Maternal deaths Unicef regions (maternal mortality)' name='federated.1pr34fb0xdgtad14z8fk316rfcqm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pr34fb0xdgtad14z8fk316rfcqm'>
+            <column caption='Time period' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+            <column caption='Death number' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[UNICEF Region]' role='dimension' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Attribute' name='[attr:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[UNICEF Region]' derivation='None' name='[none:UNICEF Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Names]' derivation='Year' name='[yr:Pivot Field Names:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;East Asia and Pacific&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Eastern and Southern Africa&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Eastern Europe and Central Asia&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Europe and Central Asia&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Latin America and Caribbean&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Middle East and North Africa&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;North America&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;South Asia&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;West and Central Africa&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Western Europe&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;World&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Sub-Saharan Africa&quot;</bucket>
+              <bucket>&quot;West and Central Africa&quot;</bucket>
+              <bucket>&quot;Least developed countries&quot;</bucket>
+              <bucket>&quot;Eastern and Southern Africa&quot;</bucket>
+              <bucket>&quot;South Asia&quot;</bucket>
+              <bucket>&quot;East Asia and Pacific&quot;</bucket>
+              <bucket>&quot;Latin America and Caribbean&quot;</bucket>
+              <bucket>&quot;Middle East and North Africa&quot;</bucket>
+              <bucket>&quot;Europe and Central Asia&quot;</bucket>
+              <bucket>&quot;Eastern Europe and Central Asia&quot;</bucket>
+              <bucket>&quot;North America&quot;</bucket>
+              <bucket>&quot;Western Europe&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]'>
+            <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2017' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</column>
+            <column>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]' value='23' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]' value='19' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>([federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok] / [federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk])</rows>
+        <cols>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='144'>
+            <formatted-text>
+              <run fontcolor='#787878'><![CDATA[<[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Death number: </run>
+              <run bold='true'><![CDATA[<[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+                        <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</field>
+                      <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+                      <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;Western Europe&quot;</value>
+                    <value>2017</value>
+                    <value>260</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='139' y='-24' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{C4D6B096-8605-4579-9ED0-4682273FB37F}' />
+    </worksheet>
+    <worksheet name='Maternal death (UNICEF Region)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Maternal deaths Unicef regions (maternal mortality)' name='federated.1pr34fb0xdgtad14z8fk316rfcqm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pr34fb0xdgtad14z8fk316rfcqm'>
+            <column caption='Time period' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+            <column caption='Death number' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[UNICEF Region]' role='dimension' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Attribute' name='[attr:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[UNICEF Region]' derivation='None' name='[none:UNICEF Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Names]' derivation='Year' name='[yr:Pivot Field Names:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;East Asia and Pacific&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Eastern and Southern Africa&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Eastern Europe and Central Asia&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Europe and Central Asia&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Latin America and Caribbean&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Middle East and North Africa&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;North America&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;South Asia&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;West and Central Africa&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Western Europe&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2000' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2001' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2002' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2003' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2004' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2005' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2006' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2007' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2008' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2009' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2010' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2011' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2012' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2013' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2014' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2015' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2016' />
+              <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2017' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</column>
+            <column>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]' value='39' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]' value='-90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]' />
+              <text column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]' />
+              <lod column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#75a1c7' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</rows>
+        <cols>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</cols>
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</field>
+                  <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+                  <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Eastern and Southern Africa&quot;</value>
+                <value>2017</value>
+                <value>70000</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-61' y='20' />
+          </mark-label>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</field>
+                  <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+                  <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;West and Central Africa&quot;</value>
+                <value>2017</value>
+                <value>131000</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-138' y='39' />
+          </mark-label>
+        </mark-labels>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run bold='true' fontalignment='0'>30% </run>
+              <run fontalignment='0'>drop since 2000&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>UNICEF Region: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Year of Time period: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Death number: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</field>
+                      <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+                      <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;World&quot;</value>
+                    <value>2017</value>
+                    <value>295000</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-108' y='-112' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{53F6726A-7814-4F96-A4E9-63B2690E7585}' />
+    </worksheet>
+    <worksheet name='Maternal death (World)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Maternal deaths Unicef regions (maternal mortality)' name='federated.1pr34fb0xdgtad14z8fk316rfcqm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pr34fb0xdgtad14z8fk316rfcqm'>
+            <column caption='Time period' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+            <column caption='Death number' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[UNICEF Region]' role='dimension' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Attribute' name='[attr:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[UNICEF Region]' derivation='None' name='[none:UNICEF Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Names]' derivation='Year' name='[yr:Pivot Field Names:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]'>
+            <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;World&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#75a1c7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</rows>
+        <cols>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run bold='true' fontalignment='0'>30% </run>
+              <run fontalignment='0'>drop since 2000&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>UNICEF Region: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Year of Time period: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>Death number: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</field>
+                      <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+                      <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;World&quot;</value>
+                    <value>2017</value>
+                    <value>295000</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-108' y='-112' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{2EF1F03D-8998-4A42-8E7A-2EF800D8CD10}' />
+    </worksheet>
+    <worksheet name='Maternal death (ratio)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Maternal deaths Unicef regions (maternal mortality)' name='federated.1pr34fb0xdgtad14z8fk316rfcqm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pr34fb0xdgtad14z8fk316rfcqm'>
+            <column caption='Time period' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+            <column caption='Death number' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[UNICEF Region]' role='dimension' type='nominal' />
+            <column-instance column='[UNICEF Region]' derivation='None' name='[none:UNICEF Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[pcto:sum:Pivot Field Values:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance aggregation-param='95' column='[Pivot Field Values]' derivation='Percentile' name='[prc95:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pivot Field Names]' derivation='Year' name='[yr:Pivot Field Names:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;East Asia and Pacific&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Eastern and Southern Africa&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Eastern Europe and Central Asia&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Europe and Central Asia&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Latin America and Caribbean&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Middle East and North Africa&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;North America&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;South Asia&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;West and Central Africa&quot;' />
+              <groupfilter function='member' level='[none:UNICEF Region:nk]' member='&quot;Western Europe&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]' direction='DESC' using='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[prc95:Pivot Field Values:qk]' />
+          <filter class='categorical' column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]'>
+            <groupfilter function='member' level='[yr:Pivot Field Names:ok]' member='2017' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</column>
+            <column>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]' value='19' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[sum:Pivot Field Values:qk]' palette='red_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]' />
+              <size column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[sum:Pivot Field Values:qk]' />
+              <text column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[pcto:sum:Pivot Field Values:qk]' />
+              <text column='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{98106B44-5E4C-4262-A6A7-D4325D9C9470}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Regional and global Maternal death '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Maternal death report (2000 - 2017)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='13' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='5250' id='14' type-v2='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='92750' id='11' type-v2='layout-basic' w='98400' x='800' y='6250'>
+              <zone h='92750' id='7' param='horz' type-v2='layout-flow' w='49200' x='800' y='6250'>
+                <zone h='92750' id='5' type-v2='layout-basic' w='49200' x='800' y='6250'>
+                  <zone h='92750' id='3' name='Maternal death (UNICEF Region)' w='49200' x='800' y='6250'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='46375' id='9' name='Maternal death (World)' w='49200' x='50000' y='6250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='46375' id='10' name='Maternal death (Region ranking)' w='49200' x='50000' y='52625'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run>Maternal death report (2000 - 2017)</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='19' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='5250' id='14' type-v2='title' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='92750' id='3' is-fixed='true' name='Maternal death (UNICEF Region)' w='49200' x='800' y='6250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46375' id='9' is-fixed='true' name='Maternal death (World)' w='49200' x='50000' y='6250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46375' id='10' is-fixed='true' name='Maternal death (Region ranking)' w='49200' x='50000' y='52625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0748FC34-8F9D-4647-9604-C324BE8CE52E}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Maternal death (World)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</field>
+            <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2870C9C4-9737-478A-A06C-E68E45716015}' />
+    </window>
+    <window class='worksheet' name='Maternal death (UNICEF Region)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</field>
+            <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B28CFE7E-E3D3-4681-871D-452FA2F29FF9}' />
+    </window>
+    <window class='worksheet' name='Maternal death (Region ranking)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</field>
+            <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BDC9F0B6-2086-4483-8EF0-BA42460E384F}' />
+    </window>
+    <window class='worksheet' name='Maternal death (ratio)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1pr34fb0xdgtad14z8fk316rfcqm].[sum:Pivot Field Values:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[attr:Pivot Field Values:qk]</field>
+            <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[none:UNICEF Region:nk]</field>
+            <field>[federated.1pr34fb0xdgtad14z8fk316rfcqm].[yr:Pivot Field Names:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4E4DF536-185A-4256-94F0-27FD7A50C112}' />
+    </window>
+    <window class='dashboard' name='Regional and global Maternal death '>
+      <viewpoints>
+        <viewpoint name='Maternal death (Region ranking)' />
+        <viewpoint name='Maternal death (UNICEF Region)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Maternal death (World)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{097D84EB-3AFE-4D84-9DC9-891DC2226C4C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Maternal death (Region ranking)' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Maternal death (UNICEF Region)' width='192'>
+      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
+      OnLd8wAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Maternal death (World)' width='192'>
+      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
+      YII=
+    </thumbnail>
+    <thumbnail height='192' name='Maternal death (ratio)' width='192'>
+      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
+      QDK1/w8ahTJ44coV3gAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Regional and global Maternal death ' width='192'>
+      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
+      RK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
