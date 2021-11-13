@@ -1,5 +1,5 @@
 # How can we end preventable fetal death and maternal death?
-![image](image/pic1.jpg)
+![image](images/pic1.jpg)
 
 ## Background 
 Did you know that having a healthy child is rather a miracle than 'normal'? 
@@ -57,7 +57,6 @@ Based on the results above, upsampling metrix with random forest performed best 
 
 
 
-resource:
-https://www.who.int/data/gho/indicator-metadata-registry/imr-details/26
-
-http://apps.who.int/iris/bitstream/handle/10665/43444/9241563206_eng.pdf;jsessionid=F36359625C33C27CABCEBD4D451A7C46?sequence=1
+### Other resource:
+- [WHO maternal death report](https://www.who.int/news/item/05-10-2021-new-global-targets-to-prevent-maternal-deaths)
+- [WHO Neonatal and perinatal mortality](http://apps.who.int/iris/bitstream/handle/10665/43444/9241563206_eng.pdf;jsessionid=F36359625C33C27CABCEBD4D451A7C46?sequence=1)
