@@ -1,5 +1,5 @@
 # How can we end preventable fetal death and maternal death?
-![image](images/pic1.jpg)
+![Screenshot](images/pic1.jpg)
 
 ## Background 
 Did you know that having a healthy child is rather a miracle than 'normal'? 
