@@ -15,8 +15,10 @@ In addition to fetal death, in 2015, in anticipation of the launch of the SDGs, 
 
 ## Project target and data source
 ### Target
-By using Cardiotocography (CTG) data of fetal heart and uterine contractions,
-detect fetal health by **creating classification model** and by **data visualization techniques**.
+Cardiotocograph(CTG) is the most widely used techniques in developed countries to monitor fetal heart rate and uterine contractions. The information of the CTG helps medical practitioners to evaluate the fetal's wellbeing (healthy or pathological) prevent child and maternal mortality.
+In this project, the target is to:
+1. detect fetal health by **creating classification model** 
+2. detect fetal health in group 'Suspect' or 'Pathological' by **data visualization techniques**.
 
 Ultimately apply these results and techniques in the developing world with high stillbirth and neonatal death to help medical practitioners to take immediate actions to prevent fetal death and maternal death and acheive the target of SDGs by 2030.
 
@@ -27,7 +29,7 @@ Ultimately apply these results and techniques in the developing world with high 
 - Target variable: Fetal health status (Normal, Suspect, Pathological)
 - Example of features: Baseline value (beats per minute), Uterine contractions per seconds, Severe decelerations, Histogram widths, max, min, mean 
 
-## Solution and results
+## Results
 
 ### modeling
 Imbalanced data was found in the target variable, therefore upsampling and SMOTE metrix was used to fix imbalance.
@@ -57,6 +59,6 @@ Based on the results above, upsampling metrix with random forest performed best 
 
 
 
-### Other resource:
+### Other data resource:
 - [WHO maternal death report](https://www.who.int/news/item/05-10-2021-new-global-targets-to-prevent-maternal-deaths)
 - [WHO Neonatal and perinatal mortality](http://apps.who.int/iris/bitstream/handle/10665/43444/9241563206_eng.pdf;jsessionid=F36359625C33C27CABCEBD4D451A7C46?sequence=1)
