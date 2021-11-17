@@ -1,12 +1,12 @@
 # How can we end preventable fetal death and maternal death?
-![Screenshot](images/pic1.jpg, width= 400, height= 100)
+![Screenshot](images/unicef_image.jpeg)
 
 ## Background 
 Did you know that having a healthy child is rather a miracle than 'normal'? 
 Did you know that many pregnancy comes with risk of death?
 Many of us who lives in a developed world may have a beautiful picture of having a child but in the developing world there are many challenges lie in pregnancy and giving birth. Over 90% of fetal death and maternal death are happening in the developing world.
 
-Based on the report from UNICEF open data source, it is estimated that **5.1 million** infant passed away before their fifth birthday. Out of the 5.1 million, **approx. 50% of death is happening within 4 weeks after birth (neonatal)**. And in addition, there are estimats of **2 million still birth (born dead)** where every third case is preventable.
+Based on the report from UNICEF open data source, it is estimated that **5.1 million** infant passed away before their fifth birthday. Out of the 5.1 million, **approx. 50% of death is happening within 4 weeks after birth (neonatal)**. And in addition, there are estimats of **2 million stillbirth (born dead)** every year which means that it occurs every 16 secounds. What is even more tragic is that the majority could have been prevented through quality care during pregnancy and at birth.
 
 The world made remarkable progress in child survival in the past three decades. Since 2015, there is a new targets set out in the Sustainable Development Goals (SDGs) of ending preventable death of newborns and children under 5 years old.
 Therefore it is **essential to have a closer look into how to end preventable stillbirth and neonatal**.
@@ -62,3 +62,4 @@ Based on the results above, upsampling metrix with random forest performed best 
 ### Other data resource:
 - [WHO maternal death report](https://www.who.int/news/item/05-10-2021-new-global-targets-to-prevent-maternal-deaths)
 - [WHO Neonatal and perinatal mortality](http://apps.who.int/iris/bitstream/handle/10665/43444/9241563206_eng.pdf;jsessionid=F36359625C33C27CABCEBD4D451A7C46?sequence=1)
+- [UNICEF press release 'One stillbirth occurs every 16 secounds](https://www.unicef.org/press-releases/one-stillbirth-occurs-every-16-seconds-according-first-ever-joint-un-estimates)
