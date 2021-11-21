@@ -37,12 +37,14 @@ In this studies three different model was tested: **Logistic regression, KNN Cla
 
 Results:
 
-| Models              |        |          | upsample       | smote          |
-|---------------------|--------|----------|----------------|----------------|
-| Logistic regression |        |          | 0.7            | 0.72           |
-| KNN Classifier      | recall | A/ B/ C  | 0.78/0.90/0.95 | 0.84/0.89/0.93 |
-|                     | F1     | A/ B/ C  | 0.83/0.88/0.93 | 0.87/0.86/0.94 |
-| Random forest       |        |          | **0.94**       | **0.92**       |
+|  Models              |                |          | upsample              | smote          |
+|----------------------|----------------|----------|-----------------------|----------------|
+|                      |                |          | upsample              | smote          |
+| Logistic  regression | accurary score |          | 0.70                  | 0.72           |
+|                      | recall score   | A/ B/ C  | 0.72/0.61/0.71        | 0.67/0.69/0.68 |
+| KNN Classifier       | accuracy score |          | 0.81                  | 0.83           |
+|                      | recall score   | A/ B/ C  | 0.78/0.90/0.95        | 0.84/0.89/0.93 |
+| Random forest        |                |          | **0.94**              | **0.92**       |
 
 Based on the results above, upsampling metrix with random forest performed best in this particular case.
 
