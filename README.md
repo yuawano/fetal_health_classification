@@ -39,7 +39,6 @@ Results:
 
 |  Models              |                |          | upsample              | smote          |
 |----------------------|----------------|----------|-----------------------|----------------|
-|                      |                |          | upsample              | smote          |
 | Logistic  regression | accurary score |          | 0.70                  | 0.72           |
 |                      | recall score   | A/ B/ C  | 0.72/0.61/0.71        | 0.67/0.69/0.68 |
 | KNN Classifier       | accuracy score |          | 0.81                  | 0.83           |
