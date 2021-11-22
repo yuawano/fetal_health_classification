@@ -40,14 +40,16 @@ Upsampling and smote was applied to fix the imbalanced data.
 In this studies three different model was tested: **Logistic regression, KNN Classifier** and **Random Forest**.
 Based on the results below, upsampling metrics with random forest performed best in this particular case.
 
-| Models               | Scores                            | upsample              | smote              |
+
+
+| Models               | Scores                            | upsampling            | smote              |
 |----------------------|------------------------|----------|-----------------------|--------------------|
-| Logistic  regression | accuracy score                    | 0.7                   | 0.72               |
+| Logistic  regression | accuracy score         |          | 0.7                   | 0.72               |
 |                      | recall score           | A: B: C: | 0.72 / 0.61 / 0.71    | 0.67 / 0.69 / 0.68 |
-| KNN Classifier       | accuracy score                    | 0.81                  | 0.83               |
+| KNN Classifier       | accuracy score         |          | 0.81                  | 0.83               |
 |                      | recall score           | A: B: C: | 0.78 / 0.90 / 0.95    | 0.84 / 0.89 / 0.93 |
-| Random Forest        | accuracy score                    | 0.91                  | 0.91               |
-|                      | cross validation score            | 0.94                  | 0.92               |
+| Random Forest        | accuracy score         |          | 0.91                  | 0.91               |
+|                      | cross validation score |          | 0.94                  | 0.92               |
 |                      | recall score           | A: B: C: | 0.93 / 0.80 / 0.89    | 0.93 / 0.81 / 0.89 |
 
 ### data visualization 
