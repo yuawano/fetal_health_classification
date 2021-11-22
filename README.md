@@ -1,5 +1,15 @@
 # How can we end preventable fetal death and maternal death?
-![Screenshot](images/unicef_image.jpeg)
+![Screenshot](images/head_pic)
+
+## Project summary
+This is a project of **multiclass classification with imbalanced data** using **Cardiotocograph(CTG)** data to classify the fetal's wellbeing (Normal, Suspect, Pathological) in order to detect the risk of the fetal.
+In this project the targets are:
+1. detect fetal health by **creating classification model** 
+2. detect fetal health in risk group ('Suspect' or 'Pathological') by **data visualization**.
+
+For further information about this project, please visit the presentation.
+[Project presentation](https://docs.google.com/presentation/d/1a8GAKOVSXRye0OPvnsLM4sYUJHKMhU-R-i7Mjj1O4KE/edit#slide=id.p)
+
 
 ## Background 
 Did you know that having a healthy child is rather a miracle than 'normal'? 
@@ -13,51 +23,44 @@ Therefore it is **essential to have a closer look into how to end preventable st
 
 In addition to fetal death, in 2015, in anticipation of the launch of the SDGs, the World Health Organization (WHO) and partners released a consensus statement and full strategy paper on **ending preventable maternal mortality**. As of 2019 report from UNICEF open data source, there are 30 thousand maternal death worldwide and most are preventable.
 
-## Project target and data source
-### Target
+## Project goal and solution
 Cardiotocograph(CTG) is the most widely used techniques in developed countries to monitor fetal heart rate and uterine contractions. The information of the CTG helps medical practitioners to evaluate the fetal's wellbeing (healthy or pathological) prevent child and maternal mortality.
-In this project, the target is to:
-1. detect fetal health by **creating classification model** 
-2. detect fetal health in group 'Suspect' or 'Pathological' by **data visualization techniques**.
-
+In this project, the target is to **create classification model** and **data visualization** to identify the fetal's wellbeing.
 Ultimately apply these results and techniques in the developing world with high stillbirth and neonatal death to help medical practitioners to take immediate actions to prevent fetal death and maternal death and acheive the target of SDGs by 2030.
 
 
-### Data source
+## Data info
 - Data set:  [Cardiotocography (CTG) data](https://www.kaggle.com/andrewmvd/fetal-health-classification) of fetal heart and uterine contractions from Kaggle
 - Data set size: 2126 rows x 22 features
 - Target variable: Fetal health status (Normal, Suspect, Pathological)
 - Example of features: Baseline value (beats per minute), Uterine contractions per seconds, Severe decelerations, Histogram widths, max, min, mean 
 
+
 ## Results
-
-### modeling
-Imbalanced data was found in the target variable, therefore upsampling and SMOTE metrix was used to fix imbalance.
+### model
+Upsamping and smote was applied to fix the imbalanced data.
 In this studies three different model was tested: **Logistic regression, KNN Classifier** and **Random Forest**.
+Based on the results below, upsampling metrix with random forest performed best in this particular case.
 
-Results:
+| Models               | Scores                            | upsample              | smote              |
+|----------------------|------------------------|----------|-----------------------|--------------------|
+| Logistic  regression | accurary score                    | 0.7                   | 0.72               |
+|                      | recall score           | A: B: C: | 0.72 / 0.61 / 0.71    | 0.67 / 0.69 / 0.68 |
+| KNN Classifier       | accuracy score                    | 0.81                  | 0.83               |
+|                      | recall score           | A: B: C: | 0.78 / 0.90 / 0.95    | 0.84 / 0.89 / 0.93 |
+| Random Forest        | accuracy score                    | 0.91                  | 0.91               |
+|                      | cross validation score            | 0.94                  | 0.92               |
+|                      | recall score           | A: B: C: | 0.93 / 0.80 / 0.89    | 0.93 / 0.81 / 0.89 |
 
-|  Models              |                |          | upsample              | smote          |
-|----------------------|----------------|----------|-----------------------|----------------|
-| Logistic  regression | accurary score |          | 0.70                  | 0.72           |
-|                      | recall score   | A/ B/ C  | 0.72/0.61/0.71        | 0.67/0.69/0.68 |
-| KNN Classifier       | accuracy score |          | 0.81                  | 0.83           |
-|                      | recall score   | A/ B/ C  | 0.78/0.90/0.95        | 0.84/0.89/0.93 |
-| Random forest        |                |          | **0.94**              | **0.92**       |
+### data visualization 
+- [Tableau public_yuawano](https://public.tableau.com/app/profile/yuri.awano)
 
-Based on the results above, upsampling metrix with random forest performed best in this particular case.
-
-### Findings from data visualization 
-
-**TO BE UPDATED!!!**
 
 ## Libraries
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/stable/contents.html)
 - [Seaborn](https://seaborn.pydata.org/)
 - [Sklearn](https://scikit-learn.org/stable/)
-
-
 
 
 ### Other data resource:
