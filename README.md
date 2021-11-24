@@ -69,7 +69,7 @@ Where CTG is distributed
 The gap still lies on 'how can we apply this solution in countries where CTG is **not** distributed.
 Below are the next steps for countries there CTG is not distributed:
 - Identify where CTG is not distributed
-- Identify the number of trained medical practitioners
+- Identify where trained practitioners are in lack
 - Estimate the necessary investments and impact and allocate donations to maternal and fetal health
 
 
