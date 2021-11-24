@@ -52,8 +52,8 @@ Results:
 |                      | recall score           | A/ B/ C  | 0.72/0.61/0.71        | 0.67/0.69/0.68 |
 | KNN Classifier       | accuracy score         |          | 0.81                  | 0.83           |
 |                      | recall score           | A/ B/ C  | 0.78/0.90/0.95        | 0.84/0.89/0.93 |
-| **Random Forest**    | **accuracy score         |          | 0.91                  | 0.91 **          |
-|                      | **recall score           | A/ B/ C  | 0.93/0.80/0.89        | 0.93/0.81/0.89 **|
+| **Random Forest**    | **accuracy score**     |          | **0.91**                  | **0.91**           |
+|                      | **recall score**       | A/ B/ C  | **0.93/0.80/0.89**    | **0.93/0.81/0.89** |
 
 Based on the results above, Random Forest has the highest accuracy score of **0.91** and best balanced scores in recall.
 Thus, upsampling and smote metrics with Random Forest performed best in this particular studies.
