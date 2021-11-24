@@ -62,6 +62,16 @@ In this studies F1 score is not used since F1 score generates it's harmonized sc
 ### data visualization 
 Please visit Python file for data viz with python, and  [Tableau public_yuawano](https://public.tableau.com/app/profile/yuri.awano) for Tableau.
 
+## Next steps
+Where CTG is distributed:
+Provide the model and data visualization to hospitals, praxis so that the medical practitioners can apply the techniques in their daily check ups of their patients. This will help to identify fetal's wellbeing and take immediate actions if necessary.
+
+The gap still lies on 'how can we apply this solution in countries where CTG is **not** distributed.
+Below are the next steps for countries there CTG is not distributed:
+- Identify where CTG is not distributed
+- Identify the number of trained medical practitioners
+- Estimate the necessary investments and impact and allocate donations to maternal and fetal health
+
 
 ## Libraries
 - [Pandas](https://pandas.pydata.org/)
