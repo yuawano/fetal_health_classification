@@ -45,7 +45,7 @@ Recall measure is used when we want to answer the question 'what proportion of a
 As the metrics to fix the imbalanced data, Upsampling and smote was applied.
 
 Results: 
-'A' = Normal, 'B' = Suspect, 'C' = Pathological
+
 | Models               |                        |          | upsample              | smote          |
 |----------------------|------------------------|----------|-----------------------|----------------|
 | Logistic  regression | accurary score         |          | 0.7                   | 0.72           |
@@ -54,6 +54,8 @@ Results:
 |                      | recall score           | A/ B/ C  | 0.78/0.90/0.95        | 0.84/0.89/0.93 |
 | **Random Forest**    | **accuracy score**     |          | **0.91**                  | **0.91**           |
 |                      | **recall score**       | A/ B/ C  | **0.93/0.80/0.89**    | **0.93/0.81/0.89** |
+Note: 'A' = Normal, 'B' = Suspect, 'C' = Pathological
+
 
 Based on the results above, Random Forest has the highest accuracy score of **0.91** and best balanced scores in recall.
 Thus, upsampling and smote metrics with Random Forest performed best in this particular studies.
@@ -72,6 +74,9 @@ Below are the next steps for countries there CTG is not distributed:
 - Identify where trained practitioners are in lack
 - Estimate the necessary investments and impact and allocate donations to maternal and fetal health
 
+## Fun-facts scene from this project :D
+This is the very first draft of my storyline before the presentaion was made :-D 
+![Screenshot](images/story_board.jpg)
 
 ## Libraries
 - [Pandas](https://pandas.pydata.org/)
