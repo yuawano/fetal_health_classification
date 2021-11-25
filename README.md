@@ -20,13 +20,13 @@ And in addition, there are estimates of **2 million stillbirth (born dead)** eve
 The world made remarkable progress in child survival in the past three decades. Since 2015, there is a new targets set out in the Sustainable Development Goals (SDGs) of ending preventable death of newborns and children under 5 years old.
 Therefore it is essential to have a closer look into how to end preventable stillbirth and neonatal.
 
-The mother's also comes with risk during pregnancy. In 2015, in anticipation of the launch of the SDGs, the World Health Organization (WHO) and partners released a consensus statement and full strategy paper on **ending preventable maternal mortality**. As of 2019 report from UNICEF open data source, there are **300 thousand** maternal death worldwide and most are preventable.
+The mother's also comes with risk during pregnancy. In 2015, in anticipation of the launch of the SDGs, the World Health Organization (WHO) and partners released a consensus statement and full strategy paper on **ending preventable maternal mortality**. As of 2019 report from UNICEF open data source, there are approx. **300 thousand** maternal death worldwide and most are preventable.
 
 So our key questions is *How can we end preventable stillbirth, neonatal and maternal mortality?*.
 
 ## Project goal and solution
 Cardiotocograph(CTG) is the most widely used techniques in developed countries to monitor fetal heart rate and uterine contractions. The information of the CTG helps medical practitioners to evaluate the fetal's wellbeing (healthy or pathological) to prevent child and maternal mortality.
-In this project, the target is to **create modesl** and **data visualization** to identify the fetal's wellbeing.
+In this project, the target is to identify the fetal wellbeing from **modeling** and **data visualization**.
 Ultimately apply these results and techniques in the developing world in order to help medical practitioners to take immediate actions to prevent fetal death and maternal death and achieve the target of SDGs by 2030.
 
 
@@ -66,7 +66,7 @@ Please visit Python file for data viz with python, and  [Tableau public_yuawano]
 Where CTG is distributed
 - Provide the model and data visualization to hospitals, praxis so that the medical practitioners can apply the techniques in their daily check ups of their patients. This will help to identify fetal's wellbeing and take immediate actions if necessary.
 
-The gap still lies on 'how can we apply this solution in countries where CTG is **not** distributed.
+The gap still lies on 'how can we apply this solution in countries where CTG is **not** distributed'.
 Below are the next steps for countries there CTG is not distributed:
 - Identify where CTG is not distributed
 - Identify where trained practitioners are in lack
