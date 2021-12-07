@@ -1,9 +1,11 @@
 ![Screenshot](images/head_pic.png)
 
 ## Project summary
-This is a **multiclass classification** project using **Cardiotocograph(CTG)** data to classify the fetal's wellbeing (Normal, Suspect, Pathological) in order to detect the risk of the fetal.
-The main target in this project is to 
-- Create models to identify the fetal's wellbeing
+
+This is a **multiclass classification** project using **Cardiotocograph (CTG)** data to classify the fetal's wellbeing (Normal, Suspect, Pathological) in order to help medical practitioners to detect the fetal's in risk group at early stage. The motivation behind this project is to end preventable death of stillbirth, neonatal and maternal death.
+
+The main target in this project are
+- Create models to identify the fetal's wellbeing 
 - Detect fetal's wellbeing in the risk group ('Suspect' or 'Pathological') by data visualization in Tableau.
 
 For further information about this project and the results, please refer to the [presentation](https://docs.google.com/presentation/d/1a8GAKOVSXRye0OPvnsLM4sYUJHKMhU-R-i7Mjj1O4KE/edit#slide=id.p) or below.
